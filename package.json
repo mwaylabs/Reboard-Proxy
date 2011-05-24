@@ -1,0 +1,24 @@
+{ "name" : "mcaplight",
+  "description" : "mCAP Light reverse proxy server",
+  "version" : "0.2.0",
+  "author" : "M-WAY Solutions GmbH",
+  "dependencies": {
+    "connect": "= 1.4.1",
+    "log4js": "= 0.2.5",
+    "wwwdude": "= 0.1.0"
+  },
+  "repository" : { 
+    "type" : "git",
+    "url" : "http://github.com/mwaylabs/mCAP-Light.git"
+  },  
+  "bugs" : { 
+    "web" : "http://github.com/mwaylabs/mCAP-Light/issues" 
+  },  
+  "licenses" :
+    [{  
+      "type" : "MIT",
+      "url" : "http://github.com/mwaylabs/mCAP-Light/raw/master/LICENSE"
+    }], 
+  
+  "engines" : { "node": ">= 0.4.0" }
+}
