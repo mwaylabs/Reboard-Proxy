@@ -1,0 +1,18 @@
+[submodule "node_modules/connect"]
+	path = node_modules/connect
+	url = https://github.com/senchalabs/connect.git
+[submodule "support/node-builds"]
+	path = support/node-builds
+	url = https://github.com/ajaxorg/node-builds-v4.git
+[submodule "node_modules/mime"]
+	path = node_modules/mime
+	url = https://github.com/bentomas/node-mime.git
+[submodule "node_modules/qs"]
+	path = node_modules/qs
+	url = https://github.com/visionmedia/node-querystring.git
+[submodule "node_modules/wwwdude"]
+	path = node_modules/wwwdude
+	url = https://github.com/pfleidi/node-wwwdude.git
+[submodule "node_modules/log4js"]
+	path = node_modules/log4js
+	url = https://github.com/csausdev/log4js-node.git
