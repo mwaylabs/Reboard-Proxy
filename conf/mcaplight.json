@@ -1,0 +1,6 @@
+{
+  "server": "http://85.114.130.120:9091/openbi/XMLPROVIDER/mobile.biex",
+  "port": 8080,
+  "sslport": 8443,
+  "loglevel": "INFO"
+}
