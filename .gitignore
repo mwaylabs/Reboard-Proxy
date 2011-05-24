@@ -1,0 +1,5 @@
+*.swp
+*.jpg
+log/*
+.DS_Store
+cert/server.pem
