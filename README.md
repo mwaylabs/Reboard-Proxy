@@ -73,6 +73,12 @@ HTTPS Support
 
 mCAP Light supports HTTPS. To enable SSL/TLS supprt, you need to generate a PEM certificate and put it into cert/server.pem. If the certificate is valid, HTTPS will be enabled autmatically. The port can be changed with the sslport option in the server config.
 
+You can generate a self signed SSL certificate with the openssl commandline utility:
+
+    openssl req -new -x509 -keyout cert/server.pem -out cert/server.pem -days 365 -nodes
+
+After answering the questions, a newly generated certificate should be located in your cert directory.
+
 
 LICENSE
 -------
