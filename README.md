@@ -57,6 +57,18 @@ The configuration is located in conf/mcaplight.json. A working example would be:
 
 mCAP Light is configured to listen for HTTP on port 8080 and for HTTPS on port 8443. If you wish to use other ports, use the "port" and "sslport" options to configure them.
 
+### Log Levels
+
+If you want to configure the log levels to control the amount of messages, edit the loglevel option of your configuration file. Valid levels are:
+
+* ALL
+* DEBUG
+* TRACE
+* INFO
+* WARN
+* ERROR
+* OFF
+
 Run the proxy server
 --------------------
 
