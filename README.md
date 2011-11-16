@@ -76,7 +76,7 @@ If you have Node.js installed, you can run the proxy server via:
 
     node mcaplight.js
 
-Additionally, we integrate a git submodule with pre-built Node.js binaries. There is a runner script located in ./bin which chooses the right binary for you. To run mCAP Light this way, you need to enter the following comman:
+Additionally, we integrate a git submodule with pre-built Node.js binaries. There is a runner script located in ./bin which chooses the right binary for you. To run Reboard-Proxy this way, you need to enter the following comman:
 
     ./bin/mcaprunner.sh
 
