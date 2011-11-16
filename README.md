@@ -20,12 +20,12 @@ Needed Plugins:
   * wwwdude (HTTP client library)
   * log4js (Logging)
 
-Install mCAP Light
-------------------
+Install Reboard Proxy
+---------------------
 
 To install the software, you just need to clone our git repository:
 
-    git clone https://github.com/mwaylabs/mCAP-Light.git
+    git clone https://github.com/mwaylabs/Reboard-Proxy.git
 
 Dependencies
 ------------
@@ -55,7 +55,7 @@ The configuration is located in conf/mcaplight.json. A working example would be:
       "loglevel": "INFO"
     }
 
-mCAP Light is configured to listen for HTTP on port 8080 and for HTTPS on port 8443. If you wish to use other ports, use the "port" and "sslport" options to configure them.
+Reboard-Proxy is configured to listen for HTTP on port 8080 and for HTTPS on port 8443. If you wish to use other ports, use the "port" and "sslport" options to configure them.
 
 ### Log Levels
 
