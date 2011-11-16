@@ -83,7 +83,7 @@ Additionally, we integrate a git submodule with pre-built Node.js binaries. Ther
 HTTPS Support
 -------------
 
-mCAP Light supports HTTPS. To enable SSL/TLS supprt, you need to generate a PEM certificate, put it into the cert folder and name it server.pem. If the certificate is valid, HTTPS will be enabled autmatically. The port can be changed with the sslport option in the server config.
+Reboard-Proxy supports HTTPS. To enable SSL/TLS supprt, you need to generate a PEM certificate, put it into the cert folder and name it server.pem. If the certificate is valid, HTTPS will be enabled autmatically. The port can be changed with the sslport option in the server config.
 
 You can generate a self signed SSL certificate with the [openssl commandline utility](http://www.openssl.org/docs/HOWTO/certificates.txt):
 
@@ -95,4 +95,4 @@ After answering the questions, a newly generated certificate should be located i
 LICENSE
 -------
 
-mCAP Light is licensed under the GPLv3. For more info, have a look at the [LICENSE file](https://github.com/mwaylabs/mCAP-Light/blob/master/LICENSE).
+Reboard-Proxy is licensed under the GPLv3. For more info, have a look at the [LICENSE file](https://github.com/mwaylabs/Reboard-Proxy/blob/master/LICENSE).
